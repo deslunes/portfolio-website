@@ -51,7 +51,8 @@
 					<p class="text-teal-950 max-w-lg">Un projet open source à mon initiative, qui a pour but d'améliorer la lisibilité du code.</p>
 					<div class="mt-4">
 						<a  href="/"
-						class=" self-center h-auto px-5 py-2.5 font-medium bg-teal-950 text-white rounded-lg text-sm transition-all ease-in-out hover:bg-black">
+						class=" self-center h-auto px-5 py-2.5 font-medium bg-teal-950 text-white rounded-lg text-sm transition-all ease-in-out"
+						hover="bg-black">
 						En savoir plus
 					</a>
 				</div>

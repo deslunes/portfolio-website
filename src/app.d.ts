@@ -1,4 +1,4 @@
-// import HTMLAttributes from 'vite-plugin-tailwind-attributify/svelte'
+import HTMLAttributes from 'vite-plugin-tailwind-attributify/svelte'
 
 // See https://kit.svelte.dev/docs/types#app
 // for information about these interfaces
