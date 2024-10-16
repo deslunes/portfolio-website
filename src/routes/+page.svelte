@@ -50,7 +50,7 @@
 					<h2 class="text-xl font-bold font-Bricolage text-teal-950">Tailwind Attributify</h2>
 					<p class="text-teal-950 max-w-lg">Un projet open source à mon initiative, qui a pour but d'améliorer la lisibilité du code.</p>
 					<div class="mt-4">
-						<a  href="/"
+						<a  href="https://github.com/deslunes/vite-plugin-tailwind-attributify"
 						class=" self-center h-auto px-5 py-2.5 font-medium bg-teal-950 text-white rounded-lg text-sm transition-all ease-in-out"
 						hover="bg-black">
 						En savoir plus
