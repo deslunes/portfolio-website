@@ -17,6 +17,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Portfolio</title>
+</svelte:head>
+
 
 <div class="relative max-h-screen w-screen">
 

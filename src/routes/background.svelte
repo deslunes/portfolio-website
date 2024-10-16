@@ -21,6 +21,6 @@ class="absolute inset-0 z-0 h-screen w-screen animate-ripple bg-[#82C5B6] bg-cov
 	}
 
   .noise-filter {
-		filter: url('#noise-filter') opacity(90%);
+		filter: url('#noise-filter') opacity(50%);
 	}
 </style>
