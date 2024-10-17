@@ -9,7 +9,7 @@
 </script>
 
 {#if split == true}
-<h1 class={className}>
+<h1 class={className + " font-Bricolage overflow-hidden font-bold"}>
   {#each splitText(text) as char, index}
     <span
       class="animate-reveal inline-block [animation-fill-mode:backwards]"
@@ -21,7 +21,7 @@
 </h1>
 {:else}
 
-<h1 class={className}>
+<h1 class={className + " font-Bricolage overflow-hidden font-bold"}>
     <span
       class="animate-reveal inline-block [animation-fill-mode:backwards]"
       style="animation-delay: {1 + baseDelay}s"
