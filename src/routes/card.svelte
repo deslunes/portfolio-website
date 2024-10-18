@@ -7,7 +7,7 @@
 </script>
 
 <div
-style="animation-delay: 6s"
+style="animation-delay: 3s"
 class="max-w-[600px] my-4 p-4 animate-slideup [animation-fill-mode:backwards] py-6 rounded-xl bg-white bg-opacity-10 backdrop-blur-sm border-white border border-opacity-40">
   
   <h2 class="text-xl font-bold font-Bricolage text-teal-950">{title}</h2>
