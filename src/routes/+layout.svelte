@@ -4,7 +4,7 @@
 
 
 <svelte:head>
-	<title>Portfolio</title>
+	<title>FS Portfolio</title>
 </svelte:head>
 
 <slot/>

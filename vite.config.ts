@@ -3,5 +3,5 @@ import { defineConfig } from 'vite';
 import { Attributify } from 'vite-plugin-tailwind-attributify';
 
 export default defineConfig({
-	plugins: [Attributify(), sveltekit()]
+	plugins: [sveltekit()]
 });
