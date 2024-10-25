@@ -49,7 +49,7 @@ let sections = [
     },
     {
       title:"TriesCatch",
-      desc:"Un projet open source à mon initiative, qui a pour but de simplifier la gestion des erreurs dans la programmation.",
+      desc:"Un projet open source qui a pour but de simplifier la gestion des erreurs dans la programmation.",
       link:"https://github.com/deslunes/triescatch",
       cta:"En savoir plus",
       delay:4

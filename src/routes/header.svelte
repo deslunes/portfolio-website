@@ -6,15 +6,15 @@
 </script>
 
 	<!-- title -->
-<Text text="Je suis" className="text-3xl text-teal-900" />
+<Text text="Je suis" className="text-xl sm:text-2xl text-teal-900" />
 <Text text="Filaïcht SINGAÏNY" split={false} baseDelay={0}
-			className="leading-[4.70rem] text-7xl text-teal-950" />
+			className="sm:leading-[4.70rem] text-5xl sm:text-7xl text-teal-950" />
 
 <!-- subtitle -->
 <div class="hidden md:block">
-	<Text text={text} className="text-xl text-teal-900" baseDelay={1} />
+	<Text text={text} className="text-lg sm:text-xl text-teal-900" baseDelay={1} />
 </div>
 <div class="md:hidden block">
-	<Text text={SmallScreenText1} className="text-xl text-teal-900" baseDelay={1} />
-	<Text text={SmallScreenText2} className="text-xl text-teal-900" baseDelay={1.5} />
+	<Text text={SmallScreenText1} className="text-lg sm:text-xl text-teal-900" baseDelay={1} />
+	<Text text={SmallScreenText2} className="text-lg sm:text-xl text-teal-900" baseDelay={1.5} />
 </div>
