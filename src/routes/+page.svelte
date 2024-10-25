@@ -28,7 +28,7 @@
     <h2 class="text-base sm:text-lg font-bold font-Bricolage text-teal-950">{item.title}</h2>
     <p class="text-teal-950 max-w-lg text-sm sm:text-base">{item.desc}</p>
 		{#if item.cta !== ""}
-    <div class="mt-4">
+    <div class="my-2">
 				<a href={item.link}
 					 class="self-center h-auto px-5 py-2.5 font-medium bg-teal-950 text-white rounded-lg text-sm transition-all ease-in-out hover:bg-black">
 					{item.cta}
