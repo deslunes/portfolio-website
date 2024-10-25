@@ -90,14 +90,13 @@
 				{#each pages as page}
 					<Carousel.Item>
 
-						<div class="mt-12 px-4">
-							<div class="flex items-center">
+						<div class="mt-12">
+							<div class="flex gap-2 items-center">
 					
 								<Text split={false} baseDelay={1} text={page.title}
-											className="w-full text-4xl text-teal-950" />
+											className=" text-4xl flex-shrink-0 text-teal-950" />
 					
-								<span class="h-0.5 bg-teal-950 animate-hr [animation-fill-mode:backwards] hidden md:block w-full"
-											style="animation-delay: 3s"></span>
+								<span class="h-0.5 bg-teal-950 w-full flex-grow mr-2"></span>
 							</div>
 
 

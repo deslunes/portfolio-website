@@ -16,7 +16,7 @@
   
   
     <div class="absolute inset-0 z-30 flex items-center justify-center h-screen">
-      <div class=" sm:max-w-3xl max-w-[600px] mx-auto">
+      <div class="w-full sm:w-[640px] mx-auto px-4">
         
         {@render children()}
   

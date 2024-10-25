@@ -5,7 +5,6 @@
 	export let SmallScreenText2;
 </script>
 
-<div class="px-4">
 	<!-- title -->
 <Text text="Je suis" className="text-3xl text-teal-900" />
 <Text text="Filaïcht SINGAÏNY" split={false} baseDelay={0}
@@ -18,5 +17,4 @@
 <div class="md:hidden block">
 	<Text text={SmallScreenText1} className="text-xl text-teal-900" baseDelay={1} />
 	<Text text={SmallScreenText2} className="text-xl text-teal-900" baseDelay={1.5} />
-</div>
 </div>
