@@ -5,6 +5,7 @@
   import Header from './header.svelte'
   import Card from './card.svelte'
   import Background from './background.svelte'
+  import Links from './links.svelte'
 
   let { children } = $props();
 </script>
@@ -16,6 +17,9 @@
   
   
     <div class="absolute inset-0 z-30 flex items-center justify-center h-screen">
+
+      <Links/>
+
       <div class="w-full sm:w-[640px] mx-auto px-4">
         
         {@render children()}

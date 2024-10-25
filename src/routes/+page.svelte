@@ -7,52 +7,14 @@
 	import Container from './container.svelte';
 	import Header from './header.svelte';
 	import Text from './text.svelte';
+	import { sections } from '$lib/config';
 
 	let text = "Développeur Web · Étudiant en école de commerce";
 	let SmallScreenText1 = "Étudiant en école de commerce";
 	let SmallScreenText2 = "Développeur Web";
 
 
-	let pages = [
-		{
-			title: "Mes projets",
-			items: [
-			{
-				title: "Tailwind Attributify",
-				desc: "Un projet open source à mon initiative, qui a pour but d'améliorer la lisibilité du code.",
-				link: "https://github.com/deslunes/vite-plugin-tailwind-attributify",
-				cta: "En savoir plus",
-				delay: 3
-			},
-			{
-				title:"TriesCatch",
-				desc:"Un projet open source à mon initiative, qui a pour but de simplifier la gestion des erreurs dans la programmation.",
-				link:"https://github.com/deslunes/triescatch",
-				cta:"En savoir plus",
-				delay:4
-			},
-  		]
-		},
-		{
-			title: "Mon Parcours",
-			items: [
-			{
-				title: "NeomaBS",
-				desc: "Master en innovation digitale (programme TEMA), 2021-2026",
-				link: "https://github.com/deslunes/vite-plugin-tailwind-attributify",
-				cta: "",
-				delay: 3
-			},
-			{
-				title:"Epitech Barcelona",
-				desc:"Formation au développement web, au déploiement d'infrastructure et à la gestion de bases de données.",
-				link:"https://github.com/deslunes/triescatch",
-				cta:"",
-				delay:4
-			},
-  		]
-		}
-	]
+
 
 
 
@@ -84,23 +46,23 @@
 		<Carousel.Root 
 		style="animation-delay: 3.5s" 
 		class="w-full animate-slideup [animation-fill-mode:backwards]"
-		plugins={[ Autoplay({ delay: 7000 }) ]}
+		plugins={[ Autoplay({ delay: 4000, stopOnInteraction: true })]}
 		>
 			<Carousel.Content>
-				{#each pages as page}
+				{#each sections as section}
 					<Carousel.Item>
 
 						<div class="mt-12">
 							<div class="flex gap-2 items-center">
 					
-								<Text split={false} baseDelay={1} text={page.title}
+								<Text split={false} baseDelay={1} text={section.title}
 											className=" text-4xl flex-shrink-0 text-teal-950" />
 					
 								<span class="h-0.5 bg-teal-950 w-full flex-grow mr-2"></span>
 							</div>
 
 
-							{#each page.items as item}
+							{#each section.items as item}
 								{@render Card(item)}
 							{/each}
 						

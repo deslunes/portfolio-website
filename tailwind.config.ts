@@ -57,7 +57,7 @@ const config: Config = {
 
 			fontFamily: {
         "Bricolage" : "Bricolage Grotesque",
-				'Inter': 'Inter',
+				'Inter': "Inter",
       },
 			animation: {
 				'ripple': 'ripple 15s infinite',

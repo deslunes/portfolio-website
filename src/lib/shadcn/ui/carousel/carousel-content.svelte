@@ -17,6 +17,7 @@
 	use:emblaCarouselSvelte={{
 		options: {
 			container: "[data-embla-container]",
+			loop: true,
 			slides: "[data-embla-slide]",
 			...$options,
 			axis: $orientation === "horizontal" ? "x" : "y",
